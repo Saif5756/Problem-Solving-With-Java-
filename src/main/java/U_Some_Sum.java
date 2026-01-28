@@ -12,7 +12,7 @@ public class U_Some_Sum {
 
         for (int i = 1; i <= N; i++) {
             int temp = i;
-            int digitSum = 0;
+               int digitSum = 0;
 
             while (temp > 0) {
                 digitSum += temp % 10;
